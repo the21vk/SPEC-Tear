@@ -1,4 +1,4 @@
-# **SP**ectral **E**igenvalue **C**ode for the **T**earing instability
+# **Sp**ectral **E**igenvalue **C**ode for the **T**earing instability
 
 Eigenvalue code to obtain the growth rates for the 3D tearing instability using spectral methods.
 
