@@ -65,7 +65,7 @@ print(f"Growth rate: {growth_rate}")
 
 ## Theory Background
 
-The code calculates the growth rate for the tearing instability in 3D by examining the eigenvalues of the linearized MHD equations as presented in [our work](https://arxiv.org/abs/2412.10065v1). A positive real part in any eigenvalue indicates instability.
+The code calculates the growth rate for the tearing instability in 3D by computing the eigenvalues of the linearized MHD equations as presented in [our work](https://arxiv.org/abs/2412.10065v1). A positive real part in any eigenvalue indicates instability.
 
 Key parameters:
 - `k_star`: Wavenumber
@@ -73,7 +73,7 @@ Key parameters:
 - `S`: Lundquist number (ratio of resistive to Alfvén time scales)
 - `N`: Grid resolution for the spectral method
 
-Example usage is presented in the notebook [here](exampleUsage.ipynb).
+Example usage is presented in the notebook [here](exampleUsage.ipynb). If required, one can obtain the eigenvectors as well by modifying the code slightly. See [PyTorch documentation](https://pytorch.org/docs/stable/index.html) to learn how to access the eigenvectors. 
 
 
 ## Contributing
@@ -97,6 +97,11 @@ If you use this code in your research, please cite:
 }
 ```
 
-## Acknowledgements:
+## Future Plans
+
+- Add support for parsing linearized equations as strings, constructing relevant derivative operators, and then solving for the eigenvalues and eigenvectors.
+
+## Acknowledgements
+
 - Discussions with Prayush Kumar at ICTS were extremely useful.
 - Claude.ai generated the comments that describe the code line by line.
