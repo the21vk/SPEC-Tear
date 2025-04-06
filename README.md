@@ -91,7 +91,7 @@ If you use this code in your research, please cite:
 ```
 @software{spec-tear,
   author = {Your Name},
-  title = {SPEC-tear: Spectral Eigenvalue Code for the Tearing Instability},
+  title = {SPEC-Tear: Spectral Eigenvalue Code for the Tearing Instability},
   year = {2025},
   url = {https://github.com/yourusername/mhd-stability}
 }
