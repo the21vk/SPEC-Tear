@@ -96,3 +96,7 @@ If you use this code in your research, please cite:
   url = {https://github.com/yourusername/mhd-stability}
 }
 ```
+
+## Acknowledgements:
+- Discussions with Prayush Kumar at ICTS were extremely useful.
+- Claude.ai generated the comments that describe the code line by line.
