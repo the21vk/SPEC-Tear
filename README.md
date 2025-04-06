@@ -35,8 +35,8 @@ Key features:
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/SPEC-tear.git
-cd SPEC-tear
+git clone https://github.com/yourusername/SPEC-Tear.git
+cd SPEC-Tear
 ```
 
 Install dependencies:
