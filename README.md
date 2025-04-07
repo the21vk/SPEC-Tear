@@ -49,7 +49,7 @@ pip install numpy scipy torch matplotlib jupyter
 ### Using the Python Module
 
 ```python
-from mhd_stability import compute_max_real_eigenvalue
+from spectear import compute_max_real_eigenvalue
 
 # Calculate growth rate for specific parameters
 growth_rate = compute_max_real_eigenvalue(
